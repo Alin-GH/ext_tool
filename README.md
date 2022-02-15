@@ -2,7 +2,7 @@
 
 ## Introduction
 seleted fold contains point cloud infos as pcd files and related images json_files are given labeled files 
-to prepare training data as kitti-like format use json2ttxt.py to extract useful information json_out as the output 
+to prepare training data as kitti-like format use prex.py to extract useful information json_out as the output 
 
 ## GT-like 
 The label files contain the following information, which can be read and
