@@ -1,0 +1,68 @@
+{
+    "baseUrl": "demo2/json/demo2_53_53",
+    "frames": [
+        {
+            "frameId": 0,
+            "frameUrl": "/demo2/point_cloud/bin_v1/00002971.bin",
+            "isValid": true,
+            "groundY": null,
+            "items": [
+                {
+                    "position": {
+                        "x": 15.935249863656386,
+                        "y": -2.8884669018397884,
+                        "z": 0.8515698033673208
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": -1.1765306718007394e-07
+                    },
+                    "dimension": {
+                        "x": 4.478921662032154,
+                        "y": 1.8010204909550263,
+                        "z": 1.5785208742475834
+                    },
+                    "category": "\u5c0f\u6c7d\u8f66",
+                    "frameNum": 0,
+                    "id": "735ff64e-2879-4d0b-86f2-94bf521bad85",
+                    "number": 1,
+                    "interpolated": false,
+                    "pointCount": {
+                        "lidar": 871
+                    },
+                    "labels": null,
+                    "isEmpty": false,
+                    "annotatedBy": "human"
+                }
+            ],
+            "images": [
+                {
+                    "image": "/demo2/image/00002971.jpg",
+                    "items": [
+                        {
+                            "type": "RECT",
+                            "id": "735ff64e-2879-4d0b-86f2-94bf521bad85",
+                            "number": 1,
+                            "category": "\u5c0f\u6c7d\u8f66",
+                            "frameNum": 0,
+                            "imageNum": 0,
+                            "position": {
+                                "x": 864.0854584403864,
+                                "y": 325.3035212936534
+                            },
+                            "dimension": {
+                                "x": 316.82603493274996,
+                                "y": 242.4214939859985
+                            },
+                            "labels": "{\"occlusion\":0}",
+                            "isManual": true
+                        }
+                    ]
+                }
+            ],
+            "relations": []
+        }
+    ],
+    "auditId": "2eb0bbb0-27e9-48bf-bf5a-f6cce1a57dd1.53.audit"
+}

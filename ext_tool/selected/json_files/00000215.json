@@ -1,0 +1,252 @@
+{
+    "baseUrl": "json/demo2_2_2",
+    "frames": [
+        {
+            "frameId": 0,
+            "frameUrl": "/demo2/point_cloud/bin_v1/00000215.bin",
+            "isValid": true,
+            "groundY": null,
+            "items": [
+                {
+                    "position": {
+                        "x": 92.69565628966501,
+                        "y": 10.912027181953501,
+                        "z": 0.8534827921628024
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0.16685382233557616
+                    },
+                    "dimension": {
+                        "x": 4.513931168651298,
+                        "y": 1.836068831348706,
+                        "z": 1.7499999999999996
+                    },
+                    "category": "\u5c0f\u6c7d\u8f66",
+                    "frameNum": 0,
+                    "id": "a92f2225-de54-4f7b-88b5-66d2649aa302",
+                    "number": 3,
+                    "interpolated": false,
+                    "pointCount": {
+                        "lidar": 12
+                    },
+                    "labels": null,
+                    "isEmpty": false,
+                    "annotatedBy": "human"
+                },
+                {
+                    "position": {
+                        "x": 162.21254672392118,
+                        "y": 2.682310287350746,
+                        "z": 1.8838412685413501
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": -0.037133644054800595
+                    },
+                    "dimension": {
+                        "x": 7.494505494505482,
+                        "y": 2.896939119612779,
+                        "z": 4.032058591177083
+                    },
+                    "category": "\u8d27\u8f66",
+                    "frameNum": 0,
+                    "id": "bbf440c5-8702-4824-925c-546dcf6e7c7d",
+                    "number": 1,
+                    "interpolated": false,
+                    "pointCount": {
+                        "lidar": 139
+                    },
+                    "labels": null,
+                    "isEmpty": false,
+                    "annotatedBy": "human"
+                },
+                {
+                    "position": {
+                        "x": 42.0277501456799,
+                        "y": 11.318583925850367,
+                        "z": 1.1519800760349692
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": -0.00752986431864109
+                    },
+                    "dimension": {
+                        "x": 5.585389428370011,
+                        "y": 1.8936381026704314,
+                        "z": 2.007463394107093
+                    },
+                    "category": "\u5c0f\u6c7d\u8f66",
+                    "frameNum": 0,
+                    "id": "c2c7ead3-d0bc-4dd3-9bbc-46778db1b39a",
+                    "number": 1,
+                    "interpolated": false,
+                    "pointCount": {
+                        "lidar": 95
+                    },
+                    "labels": null,
+                    "isEmpty": false,
+                    "annotatedBy": "human"
+                },
+                {
+                    "position": {
+                        "x": 262.3009448875193,
+                        "y": 12.591831961240658,
+                        "z": 0.9627358217840414
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0.29967399397305705
+                    },
+                    "dimension": {
+                        "x": 4.908981254527968,
+                        "y": 1.599379545139789,
+                        "z": 1.5993795451397614
+                    },
+                    "category": "\u5c0f\u6c7d\u8f66",
+                    "frameNum": 0,
+                    "id": "4ed67a92-652a-44cb-88d3-8cd9a80bbe17",
+                    "number": 5,
+                    "interpolated": false,
+                    "pointCount": {
+                        "lidar": 4
+                    },
+                    "labels": null,
+                    "isEmpty": false,
+                    "annotatedBy": "human"
+                },
+                {
+                    "position": {
+                        "x": 64.67894369471291,
+                        "y": 26.515449795269525,
+                        "z": 1.970236078971889
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 3.1355406251092215
+                    },
+                    "dimension": {
+                        "x": 9.299394347758522,
+                        "y": 2.6411236842489134,
+                        "z": 3.35
+                    },
+                    "category": "\u8d27\u8f66",
+                    "id": "48761449-d45c-431c-9d66-4725cdf91491",
+                    "number": 2,
+                    "interpolated": false,
+                    "frameNum": 0,
+                    "pointCount": {
+                        "lidar": 34
+                    },
+                    "labels": null,
+                    "isEmpty": false,
+                    "annotatedBy": "human"
+                }
+            ],
+            "images": [
+                {
+                    "image": "/demo2/image/00000215.jpg",
+                    "items": [
+                        {
+                            "type": "RECT",
+                            "id": "c2c7ead3-d0bc-4dd3-9bbc-46778db1b39a",
+                            "number": 1,
+                            "category": "\u5c0f\u6c7d\u8f66",
+                            "frameNum": 0,
+                            "imageNum": 0,
+                            "position": {
+                                "x": 195.34141085225417,
+                                "y": 235.2118460535975
+                            },
+                            "dimension": {
+                                "x": 100.79798007093444,
+                                "y": 73.62400885322333
+                            },
+                            "labels": "{\"occlusion\":0}",
+                            "isManual": true
+                        },
+                        {
+                            "type": "RECT",
+                            "id": "a92f2225-de54-4f7b-88b5-66d2649aa302",
+                            "number": 3,
+                            "category": "\u5c0f\u6c7d\u8f66",
+                            "frameNum": 0,
+                            "imageNum": 0,
+                            "position": {
+                                "x": 458.7440337809577,
+                                "y": 220.53725220232207
+                            },
+                            "dimension": {
+                                "x": 35.25732701583178,
+                                "y": 27.889226417714838
+                            },
+                            "labels": "{\"occlusion\":0}",
+                            "isManual": true
+                        },
+                        {
+                            "type": "RECT",
+                            "id": "bbf440c5-8702-4824-925c-546dcf6e7c7d",
+                            "number": 1,
+                            "category": "\u8d27\u8f66",
+                            "frameNum": 0,
+                            "imageNum": 0,
+                            "position": {
+                                "x": 603.2951545399632,
+                                "y": 200.96568469924983
+                            },
+                            "dimension": {
+                                "x": 22.434993375737918,
+                                "y": 27.63135542675053
+                            },
+                            "labels": "{\"occlusion\":0}",
+                            "isManual": true
+                        },
+                        {
+                            "type": "RECT",
+                            "id": "09cf70af-3335-4204-848a-2f9ef3471423",
+                            "number": 4,
+                            "category": "\u5c0f\u6c7d\u8f66",
+                            "frameNum": 0,
+                            "imageNum": 0,
+                            "position": {
+                                "x": 566.1437131741937,
+                                "y": 214.82453033748268
+                            },
+                            "dimension": {
+                                "x": 10.054732656168085,
+                                "y": 9.237274716642219
+                            },
+                            "labels": "{\"occlusion\":0}",
+                            "isManual": true
+                        },
+                        {
+                            "type": "RECT",
+                            "id": "48761449-d45c-431c-9d66-4725cdf91491",
+                            "number": 2,
+                            "category": "\u8d27\u8f66",
+                            "frameNum": 0,
+                            "imageNum": 0,
+                            "position": {
+                                "x": 70.18579574169725,
+                                "y": 204.14281056314462
+                            },
+                            "dimension": {
+                                "x": 105.70023149939333,
+                                "y": 82.36381675277403
+                            },
+                            "labels": "{\"occlusion\":1}",
+                            "isManual": true
+                        }
+                    ]
+                }
+            ],
+            "relations": []
+        }
+    ],
+    "auditId": "2eb0bbb0-27e9-48bf-bf5a-f6cce1a57dd1.2.audit"
+}

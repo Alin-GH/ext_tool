@@ -1,0 +1,63 @@
+    ##### z----Y----x negative angle 
+    R_v2c = np.array([[c(y)*c(p)  , s(y)*c(r)+c(y)*s(p)*s(r) , s(y)*s(r)-c(y)*s(p)*s(r)],
+                      [-s(y)*c(p) , c(y)*c(r)-s(y)*s(p)*s(r) , c(y)*s(r)+s(y)*s(p)*c(r)],
+                      [ s(p)      , -c(p)*s(r)               , c(p)*c(r)               ]])
+
+    ##### X----Y----Z  negative angle  
+    R_v2c = np.array([[c(y)*c(p)                 ,   s(y)*c(p)                 ,  -s(p)    ],
+                     [ s(y)*s(p)*s(r)-s(y)*c(r)  ,   s(y)*s(p)*s(r)+c(y)*c(r)  ,  s(p)*s(r)],
+                     [ s(y)*s(r)-c(y)*s(p)*s(r)  ,   -c(y)*s(r)-s(y)*s(p)*s(r) ,  s(p)*c(r)]])
+
+    ##### in use  with angle transform
+    R_v2c = np.array([[c(y)*c(p),  -s(y)*c(r)+c(y)*s(p)*s(r) ,  s(y)*s(r)+c(y)*s(p)*s(r) ],
+                     [ s(y)*c(p),   c(y)*c(r)+s(y)*s(p)*s(r) ,  -c(y)*s(r)+s(y)*s(p)*c(r)],
+                     [-s(p)     ,        c(p)*s(r)           ,  c(p)*c(r)                ]])
+
+
+
+
+    ### extr
+    '''
+    camera0:topic: " "
+    child_id: "camera60_front"a 
+    frame_id: "smartcar"
+    yaw: 89.46
+    pitch: 179.84
+    roll: 81.74
+    x: 5.13
+    y: 0.02
+    z: 2.61  
+    '''
+    #####  inverse trans  for my R_t  eular(2,1,0)  
+    '''
+    yaw: 86.2217  pitch: -98.279   roll: 3.5787
+    x: 0.0746685  y: 3.32017  z: -4.6971
+    '''
+
+    #####################
+    ##### z----y----x   org
+    # R_v2c = np.array([[c(y)*c(p),  -s(y)*c(r)+c(y)*s(p)*s(r) ,  s(y)*s(r)+c(y)*s(p)*c(r) ],
+    #                  [ s(y)*c(p),   c(y)*c(r)+s(y)*s(p)*s(r) ,  -c(y)*s(r)+s(y)*s(p)*c(r)],
+    #                  [-s(p)     ,        c(p)*s(r)           ,  c(p)*c(r)                ]])
+
+
+    #####   modified-------------> wrong
+    R_v2c = np.array([[c(y)*c(p)  , s(y)*c(r)+c(y)*s(p)*s(r) , s(y)*s(r)-c(y)*s(p)*s(r)],
+                      [-s(y)*c(p) , c(y)*c(r)-s(y)*s(p)*s(r) , c(y)*s(r)+s(y)*s(p)*c(r)],
+                      [ s(p)      , -c(p)*s(r)               , c(p)*c(r)               ]])
+
+    #####   in use
+    R_v2c = np.array([[c(y)*c(p),  -s(y)*c(r)+c(y)*s(p)*s(r) ,  s(y)*s(r)+c(y)*s(p)*c(r) ],
+                     [ s(y)*c(p),   c(y)*c(r)+s(y)*s(p)*s(r) ,  -c(y)*s(r)+s(y)*s(p)*c(r)],
+                     [-s(p)     ,        c(p)*s(r)           ,  c(p)*c(r)                ]])
+
+
+
+
+
+'''
+    mins = xmin.astype(np.int), ymin.astype(np.int)
+    maxs = xmax.astype(np.int), ymax.astype(np.int)
+    recs = mins, maxs
+    print(recs)
+'''
