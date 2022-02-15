@@ -4,7 +4,7 @@
 seleted fold contains point cloud infos as pcd files and related images json_files are given labeled files 
 to prepare training data as kitti-like format use json2ttxt.py to extract useful information json_out as the output 
 
-## trunk-like 
+## GT-like 
 The label files contain the following information, which can be read and
 
 #Values    Name      Description
@@ -34,7 +34,7 @@ All codes are tested under the following environment:
 ## run 
 1. use `conda` to manage the environment:
 ```
-conda create -n smoke python=3.7
+conda create -n smoke
 ```
 
 2. activate environment:
